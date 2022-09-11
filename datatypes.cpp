@@ -1,18 +1,20 @@
-#include<iostream>;
+#include<iostream>
 using namespace std;
 
 int main(){
 
-    int a = 12345 ;
+    int a = -12345 ;
     cout<<a<<endl;
 
-    char x = 's';
+    string x;
+    x="sumanth";
+    
     cout<<x<<endl;
 
-    float f = 5.6;
+    float f = -5.6;
     cout<< f << endl;
 
-    double d = 5.66;
+    double d = -5.66;
     cout<< d << endl;
 
     bool bs = true;
@@ -21,5 +23,6 @@ int main(){
     int size = sizeof(a);
     cout<< "size of a:"<< size<< endl;
 
+    
 
 }
