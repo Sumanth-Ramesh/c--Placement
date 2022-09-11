@@ -10,7 +10,7 @@ cin >> ch;
  if (ch>='A'&&ch<='Z'){
     cout<< "uppercase"<< endl;
  }
- else if (ch>='a'&&ch=<'z'){
+ else if (ch>='a'&&ch<='z'){
     cout<<"lowerscase"<<endl;
  }else {
     cout<<"it is integer"<<endl;
