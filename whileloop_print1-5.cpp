@@ -8,10 +8,9 @@ cin>> n;
 
 int i=1;
 while (i<=n){
-    cout<<i;
+ cout<<i;
     i=i+1;
 }
 
-cout<<"Esle"<<endl;
 
 }
